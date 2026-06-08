@@ -1,0 +1,7 @@
+{
+  "name": "cc-mkt-test",
+  "owner": {"name": "test"},
+  "plugins": [
+    {"name": "hello", "displayName": "Hello", "source": "./hello", "description": "test plugin"}
+  ]
+}
