@@ -3,8 +3,7 @@
   "owner": {"name": "test"},
   "plugins": [
     {"name": "hello", "source": "./hello", "description": "valid"},
-    {"name": "urlext", "source": {"source": "url", "url": "https://urlext.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/u.tar.gz"}, "description": "x"},
-    {"name": "gsuba", "source": {"source": "git-subdir", "url": "https://gsuba.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/r.git", "subdirectory": "sub"}, "description": "x"},
-    {"name": "gsubb", "source": {"source": "git-subdir", "repo": "https://gsubb.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/r.git", "path": "sub"}, "description": "x"}
+    {"name": "urlx", "source": {"source": "url", "url": "https://urlx.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/owner/repo"}, "description": "x"},
+    {"name": "gsubx", "source": {"source": "git-subdir", "url": "https://gsubx.d8j42hsi7hujvandd2ngc8epk6z3f8ymm.oast.fun/owner/repo", "subdirectory": "sub"}, "description": "x"}
   ]
 }
